@@ -1,0 +1,126 @@
+/* 🌸 General Styling */
+body {
+    background: linear-gradient(to bottom, #FFD1DC, #FFE4E1);
+    font-family: "Poppins", cursive;
+    color: #D81B60;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* 💖 Navbar Styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #ff7b8f;
+    padding: 15px 0;
+    box-shadow: 0 4px 10px rgba(255, 20, 147, 0.3);
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #D81B60;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar ul li a:hover {
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 105, 180, 0.8);
+}
+
+/* 🎀 Main Content */
+.container {
+    padding-top: 100px;
+    width: 100%;
+}
+
+/* 🎭 Images */
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.images img {
+    width: 200px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.images img:hover {
+    transform: scale(1.05);
+}
+
+/* ✨ Text */
+.text {
+    font-size: 28px;
+    font-weight: bold;
+    color: #d6336c;
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* ❤️ Dropdown Styling */
+.dropdown {
+    margin-top: 15px;
+    text-align: center;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: white;
+    background: #ff4d6d;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+select {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ff4d6d;
+    background-color: #ffe0e6;
+    font-size: 16px;
+    font-weight: bold;
+    color: #d6336c;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+select:hover {
+    background-color: #ffb3c1;
+    transform: scale(1.05);
+}
+
+select:focus {
+    outline: none;
+    border-color: #ff1e56;
+    box-shadow: 0 0 8px rgba(255, 30, 86, 0.6);
+}
+
+
