@@ -1,0 +1,95 @@
+/* 🌸 General Page Styling */
+body {
+    background: linear-gradient(to bottom, #FFD1DC, #FFE4E1);
+    font-family: "Poppins", cursive;
+    color: #D81B60;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* 💖 Navbar Styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #ff7b8f;
+    padding: 15px 0;
+    box-shadow: 0 4px 10px rgba(255, 20, 147, 0.3);
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #D81B60;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar ul li a:hover {
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 105, 180, 0.8);
+}
+
+/* 🎼 Page Heading */
+h1 {
+    text-align: center;
+    color: #ff4081;
+    padding-top: 100px; /* Adds space below navbar */
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 8px rgba(255, 20, 147, 0.6);
+}
+
+/* 🎀 Songs Container */
+.songs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px;
+}
+
+/* 🎵 Individual Song Card */
+.song {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 320px;
+    box-shadow: 0 4px 10px rgba(255, 20, 147, 0.4);
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.song:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 15px rgba(255, 20, 147, 0.5);
+}
+
+/* 🎧 Song Title */
+.song h2 {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+   
+}
+
+/* 🎶 Spotify Iframe Styling */
+.song iframe {
+    border-radius: 15px;
+    width: 100%;
+    height: 320px;
+}
+
